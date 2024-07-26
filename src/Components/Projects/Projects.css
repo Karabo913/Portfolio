@@ -1,0 +1,138 @@
+.portfolio--section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 112px 85px;
+  gap: 80px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.portfolio--container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.portfolio--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.3px;
+}
+
+.sub--title {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.section--heading {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.btn-github {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btn-github:hover {
+  background-color: #2e89f1;
+}
+
+.portfolio--section--container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 42.6px;
+  width: 100%;
+  justify-items: center;
+  margin-top: -30px;
+}
+
+.portfolio--card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio--section--card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(10, 109, 223, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  min-height: 400px;
+}
+
+.portfolio--section--img {
+  width: 100%;
+  height: 210px; 
+}
+
+.portfolio--section--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio--section--card--content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 210px); 
+}
+
+.portfolio--section--title {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.text-md {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.portfolio--link-container {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio--link-text {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio--link-text:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .portfolio--section {
+    padding: 56px 40px;
+  }
+  .portfolio--section--container {
+    grid-template-columns: 1fr;
+  }
+  .portfolio--section--card {
+    width: 100%;
+  }
+}

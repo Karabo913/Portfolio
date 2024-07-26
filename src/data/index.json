@@ -1,0 +1,152 @@
+{
+  "aboutMe": {
+    "title": "Personal Details",
+    "icon": "/Assets/data.png",
+    "info": [
+      {
+        "fieldName": "Name :",
+        "fieldValue": "Neo Amese"
+      },
+      {
+        "fieldName": "Phone :",
+        "fieldValue": "065 907 4711"
+      },
+      {
+        "fieldName": "Experience :",
+        "fieldValue": "3 years practical experience"
+      },
+      {
+        "fieldName": "License : ",
+        "fieldValue": "Code 10"
+      },
+      {
+        "fieldName": "Language : ",
+        "fieldValue": "English, Sepedi "
+      },
+      {
+        "fieldName": "Nationality :",
+        "fieldValue": "South African"
+      },
+      {
+        "fieldName": "Email : ",
+        "fieldValue": "ameseneo@gmail.com"
+      },
+      {
+        "fieldName": "Freelance :",
+        "fieldValue": "Available"
+      }
+    ]
+  },
+  "experience": {
+    "icon": "/Assets/experience.png",
+    "title": "My Experience",
+    "description": "Hands-on experience in full stack development with a focus on delivering high-quality solutions.",
+    "items": [
+      {
+        "company": "Tech Solutions Inc.",
+        "position": "Full Stack Developer",
+        "duration": "2022 - Present"
+      }
+    ]
+  },
+  "education": {
+    "icon": "/Assets/education.png",
+    "title": "My Education",
+    "description": "A strong academic foundation in information technology and secondary education.",
+    "items": [
+      {
+        "institution": "Belgium Campus Itversity",
+        "degree": "Diploma in Information Technology",
+        "duration": "2022 - 2025"
+      },
+      {
+        "institution": "Hoerskool Overkruin",
+        "degree": "Matric",
+        "duration": "2017 - 2021"
+      }
+    ]
+  },
+  "skills": {
+    "icon": "/Assets/skills.png",
+    "title": "My Skills",
+    "description": "Proficient in a broad range of web development and programming technologies.",
+    "skillList": [
+      {
+        "icon": "FaHtml5",
+        "name": "HTML 5"
+      },
+      {
+        "icon": "FaCss3",
+        "name": "CSS 3"
+      },
+      {
+        "icon": "FaJs",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "FaPython",
+        "name": "Python"
+      },
+      {
+        "icon": "FaMicrosoft",
+        "name": "C#"
+      },
+      {
+        "icon": "FaReact",
+        "name": "React"
+      },
+      {
+        "icon": "SiMongodb",
+        "name": "Mongoose"
+      },
+      {
+        "icon": "FaDatabase",
+        "name": "SQL"
+      },
+      {
+        "icon": "FaDatabase",
+        "name": "MySQL"
+      },
+      {
+        "icon": "FaFigma",
+        "name": "Figma"
+      },
+      {
+        "icon": "FaGem",
+        "name": "Ruby on Rails"
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/Assets/weather.png",
+      "title": "My Weather",
+      "description": "This project I made use of a api called OpenWeatherMap which is used to see all the weather specifications of a certain place ",
+      "link": "https://github.com/Karabo913/Weather-App"
+    },
+    {
+      "id": "2",
+      "src": "/Assets/bugT.png",
+      "title": " Bug Tracker",
+      "description": "A user-friendly platform for easy property rentals.",
+      "link": "https://github.com/Karabo913/Bug-Tracker"
+
+    },
+    {
+      "id": "3",
+      "src": "/Assets/prg2.png",
+      "title": "Easy Rentn",
+      "description": "A user-friendly platform for easy property rentals.",
+      "link": "https://github.com/user/repo3"
+
+    },
+    {
+      "id": "4",
+      "src": "/Assets/image.png",
+      "title": "Full-Stack React App",
+      "description": "This project made use of mongoDB to store information in which is then displayed on the React front-end ",
+      "link": "https://github.com/Karabo913/full-stack-app"
+    }
+  ]
+}

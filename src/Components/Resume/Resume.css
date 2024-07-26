@@ -1,0 +1,165 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center; 
+}
+
+.tab {
+  background-color: #27272c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 200px;
+  box-sizing: border-box;
+}
+
+.tab:hover {
+  background-color: #3b82f6;
+}
+
+.tab.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  background-color: #27272c;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  overflow-y: auto;
+}
+
+.section {
+  margin-bottom: 2rem;
+  border: 1px solid #3b82f6;
+  padding: 1rem;
+}
+
+.section-wrapper {
+  max-height: 400px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #3b82f6;
+}
+
+.section-description {
+  margin-bottom: 1.5rem;
+}
+
+.list, .skill-list, .info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item, .skill-item, .info-item {
+  margin-bottom: 1rem;
+}
+
+.item-duration, .item-degree, .info-field {
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.item-position, .skill-name, .info-value {
+  color: #d1d5db;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  color: #3b82f6;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab {
+    width: 100%;
+    max-width: none; 
+  }
+
+  .section-wrapper {
+    max-height: none;
+  }
+}
+
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.info-item {
+  width: calc(50% - 1rem);
+  margin-bottom: 1.5rem;
+}
+
+.info-field {
+  display: block;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.info-value {
+  color: #d1d5db;
+}
+
+.section-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-bottom: 1rem;
+}
